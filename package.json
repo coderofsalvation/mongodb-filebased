@@ -1,0 +1,30 @@
+{
+  "name": "mongodb-filebased",
+  "version": "1.0.0",
+  "description": "filebased mongodb (stores to js-file), no need to run mongodb instance", 
+  "main": "index.js",
+  "directories": {
+    "test": "set -ex; for test in test/tests/*; do $test; done"
+  },
+  "scripts": {
+    "test": "set -ex; for test in test/tests/*; do $test; done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderofsalvation/mongodb-filebased.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderofsalvation/mongodb-filebased/issues"
+  },
+  "homepage": "https://github.com/coderofsalvation/mongodb-filebased#readme",
+  "dependencies": {
+    "mongo-mock": "^2.1.0",
+    "monkeypatch": "^1.0.0"
+  },
+  "devDependencies": {
+    "mongodb": "^2.2.16"
+  }
+}
