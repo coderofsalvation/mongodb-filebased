@@ -1,7 +1,7 @@
 {
   "name": "mongodb-filebased",
   "version": "1.0.3",
-  "description": "filebased mongodb (stores to js-file), no need to run mongodb instance",
+  "description": "flatfilebased mongodb (stores to js-file) replacement, no need to run mongodb instance",
   "main": "index.js",
   "directories": {
     "test": "set -ex; for test in test/tests/*; do $test; done"
