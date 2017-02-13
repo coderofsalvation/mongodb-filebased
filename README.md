@@ -9,6 +9,9 @@ This will redirect all mongodb data to a `mongodb.js` file:
     require('mongodb-filebased')     // <--- add this above your mongodb-require
     require('mongodb')
 
+> NOTE: this is not a full implementation of mongodb, but it 'seems' to work for 
+most mongoose/mongodb CRUD cases 
+
 ## Features
 
 * store all collections in databasefile
