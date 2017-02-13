@@ -4,17 +4,23 @@ zero-complexity flat-filebased mongodb replacement, no need to run mongodb insta
 
 ## Usage
 
-This will redirect all mongodb data to a `mongodb.js` file:
+Just wrap your mongo-stuff like this, and it'll redirect all mongodb data to a `mongodb.js` file:
 
-    require('mongodb-filebased')     // <--- add this above your mongodb-require
-    require('mongodb')
+    require('mongodb-filebased')(function(){
+
+      require('mongodb')
+      // do your stuff
+
+    }) 
 
 > NOTE: this is not a full implementation of mongodb, but it 'seems' to work for 
 most mongoose/mongodb CRUD cases.
 
 ## Features
 
+* no need for mongodb installation
 * store all collections in databasefile
 * default databasefile is `mongodb.js` (or environment var `MONGO_DB_FILE`)
 * switch to real mongodb by just commenting the magic line
+* handy for quick prototyping / testing
 
