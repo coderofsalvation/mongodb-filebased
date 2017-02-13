@@ -1,6 +1,6 @@
 {
   "name": "mongodb-filebased",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "filebased mongodb (stores to js-file), no need to run mongodb instance",
   "main": "index.js",
   "directories": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/coderofsalvation/mongodb-filebased#readme",
   "dependencies": {
+    "bson-objectid": "^1.1.4",
     "mongo-mock": "git+https://github.com/coderofsalvation/mongo-mock.git",
     "monkeypatch": "^1.0.0"
   },
