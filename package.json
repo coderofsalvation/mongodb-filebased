@@ -26,6 +26,6 @@
     "monkeypatch": "^1.0.0"
   },
   "devDependencies": {
-    "mongodb": "^2.2.16"
+    "mongodb": "^3.6.1"
   }
 }
